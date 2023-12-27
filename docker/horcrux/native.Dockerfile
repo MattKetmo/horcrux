@@ -44,7 +44,7 @@ RUN ln sh pwd && \
     ln sh tar && \
     ln sh tee && \
     ln sh du && \
-    rm ln rm
+    rm rm
 
 # Install chain binaries
 COPY --from=build-env /go/bin/horcrux /bin
